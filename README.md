@@ -1,2 +1,2 @@
 # web_examples
-Some web examples (Ajax, Servlet...)
+Some web examples using Java (Ajax, Servlet...)
