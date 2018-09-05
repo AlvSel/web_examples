@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Ciclismo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+    
+  <servlet>
+    <servlet-name>MainServlet</servlet-name>
+    <servlet-class>servlet.MainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MainServlet</servlet-name>
+    <url-pattern>/servlet/MainServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MenuPrincipalServlet</servlet-name>
+    <servlet-class>servlet.MenuPrincipalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MenuPrincipalServlet</servlet-name>
+    <url-pattern>/servlet/MenuPrincipalServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>MenuAdminServlet</servlet-name>
+    <servlet-class>servlet.MenuAdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MenuAdminServlet</servlet-name>
+    <url-pattern>/servlet/MenuAdminServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Registro</servlet-name>
+    <servlet-class>servlet.Registro</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registro</servlet-name>
+    <url-pattern>/servlet/Registro</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Identificar</servlet-name>
+    <servlet-class>servlet.Identificar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Identificar</servlet-name>
+    <url-pattern>/servlet/Identificar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UpdatePassword</servlet-name>
+    <servlet-class>servlet.UpdatePassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdatePassword</servlet-name>
+    <url-pattern>/servlet/UpdatePassword</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UpdateDatos</servlet-name>
+    <servlet-class>servlet.UpdateDatos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateDatos</servlet-name>
+    <url-pattern>/servlet/UpdateDatos</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UpdateLicencia</servlet-name>
+    <servlet-class>servlet.UpdateLicencia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateLicencia</servlet-name>
+    <url-pattern>/servlet/UpdateLicencia</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Certificado</servlet-name>
+    <servlet-class>servlet.Certificado</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Certificado</servlet-name>
+    <url-pattern>/servlet/Certificado</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LicenciasAjax</servlet-name>
+    <servlet-class>servlet.LicenciasAjax</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LicenciasAjax</servlet-name>
+    <url-pattern>/servlet/LicenciasAjax</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LicenciasAllAjax</servlet-name>
+    <servlet-class>servlet.LicenciasAllAjax</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LicenciasAllAjax</servlet-name>
+    <url-pattern>/servlet/LicenciasAllAjax</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>BorrarLicencia</servlet-name>
+    <servlet-class>servlet.BorrarLicencia</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BorrarLicencia</servlet-name>
+    <url-pattern>/servlet/BorrarLicencia</url-pattern>
+  </servlet-mapping>
+</web-app>
